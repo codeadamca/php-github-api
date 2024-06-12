@@ -33,6 +33,7 @@ $result = json_decode($result, true);
 
 foreach($result as $key => $repo)
 {
+  print_r($repo);
   echo '<h1>'.$repo['name'].'</h1>';
   echo '<ul>
       <li>ID: '.$repo['id'].'</li>
